@@ -1,13 +1,5 @@
 package com.juaracoding.emtspringbootrestapi.controller;
-/*
-IntelliJ IDEA 2023.2 (Community Edition)
-Build #IC-232.8660.185, built on July 26, 2023
-@Author EmiratZ a.k.a. M Emirat Millenium Try
-Java Developer
-Created on 30/08/2023 10.41
-@Last Modified 30/08/2023 10.41
-Version 1.0
-*/
+
 import com.juaracoding.emtspringbootrestapi.model.CalonPeserta;
 import com.juaracoding.emtspringbootrestapi.model.Tunggal;
 import org.springframework.stereotype.Controller;
@@ -21,8 +13,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/hello")
 public class HelloController {
-
-    //    localhost:8080/hello/permisi
     @GetMapping("/permisi")
     public String firstPage() {
         return "welcome";

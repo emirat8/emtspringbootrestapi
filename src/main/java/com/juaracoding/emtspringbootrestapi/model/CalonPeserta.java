@@ -9,13 +9,8 @@ Created on 30/08/2023 13.45
 Version 1.0
 */
 
-import javax.persistence.*;
-
-@Entity
-@Table (name = "Peserta")
 public class CalonPeserta {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
     private String nama;
     private Integer umur;
